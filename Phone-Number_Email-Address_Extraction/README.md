@@ -23,7 +23,7 @@ script requires the `pyperclip.py` module for copy/paste strings
 
 ### Running the application
 
-  *`$ git clone https://github.com/MRLintern/Automation_Administration/edit/main/Phone-Number_Email-Address_Extraction.git`
+  * `$ git clone https://github.com/MRLintern/Automation_Administration/edit/main/Phone-Number_Email-Address_Extraction.git`
   * Go to a web page with phone numbers (US) and email addresses.
   * Press CTRL+A & CTRL+C.
   * `$ python3 phone_email_extractor.py`
