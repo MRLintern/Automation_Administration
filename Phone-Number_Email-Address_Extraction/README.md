@@ -17,7 +17,7 @@ script requires the `pyperclip.py` module for copy/paste strings
 ### Requirements
 
   * Application tested on `Windows 10` and `Ubuntu 20.04`.
-  * 'Python 3.8`.
+  * `Python 3.8`.
   * A text editor. `Sublime Text` was used. An IDE can also be used too.
   * `pyperclip` module for copy/paste functionality.
 
