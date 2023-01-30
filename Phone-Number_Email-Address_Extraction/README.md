@@ -27,3 +27,6 @@ script requires the `pyperclip.py` module for copy/paste strings
   * Go to a web page with phone numbers (US) and email addresses.
   * Press CTRL+A & CTRL+C.
   * `$ python3 phone_email_extractor.py`
+  * Alternatively:
+  * `$ chmod 777 phone_email_extractor.py`
+  * `$ ./phone_email_extractor.py`
