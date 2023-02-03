@@ -64,9 +64,8 @@ Task:
                
 ### Testing
 
-The script main.py has been used to create the `target` directory and change the names `calculator_test` and `multiply_test` directories.
 The process of compiling the C++ files is yet to be achived. With this in mind, a script called `test.py` has been developed to create the `target`
-directory and sub-directories.
+directory and sub-directories. That is, changing the names of the sub-directories. However, `main.py` is included. 
                   
                 
 
