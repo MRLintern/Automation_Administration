@@ -4,7 +4,7 @@
 
 Task: 
 
-  * The Python `main.py` searchs through the `src` directory for subdirectories called `calculator_test` and `multiply`.
+  * The Python `main.py` script searchs through the `src` directory for subdirectories called `calculator_test` and `multiply`.
   * Once these have been found, a new directory called `target` (or whatver you want to call it.
   * The new sub-directories now have the names `calculator` and `multiply`.
   * Inside these new sub-directories C++ files are compilied and readuy to be run.
