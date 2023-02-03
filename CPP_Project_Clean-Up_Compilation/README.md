@@ -72,6 +72,7 @@ Task:
 
 The process of compiling the C++ files is yet to be achived. With this in mind, a script called `test.py` has been developed to create the `target`
 directory and sub-directories. That is, changing the names of the sub-directories. However, `main.py` is included. 
+Once the C++ files have been compiled, function prototypes will be added to header files.
                   
                 
 
