@@ -64,12 +64,11 @@ Task:
          
 ### Running the Application
 
-  *`$ git clone https://github.com/MRLintern/Automation_Administration/edit/main/CPP_Project_Clean-Up_Compilation.git`
-  *`$ python3 main.py src target`
-  * Note: For the test case, replace `main.py` with `test.py`.
+  * `$ git clone https://github.com/MRLintern/Automation_Administration/CPP_Project_Clean-Up_Compilation.git`
+  * `$ python3 main.py src target`
+  * Note: for the test case, replace `main.py` with `test.py`
 
-
-### Testing
+### Testing and TODO
 
 The process of compiling the C++ files is yet to be achived. With this in mind, a script called `test.py` has been developed to create the `target`
 directory and sub-directories. That is, changing the names of the sub-directories. However, `main.py` is included. 
