@@ -33,7 +33,7 @@ Task:
      README.md
      
      
-### Final Project Structure
+### Final Project Structure (No C++ File Compilation yet)
 
       src/
       
