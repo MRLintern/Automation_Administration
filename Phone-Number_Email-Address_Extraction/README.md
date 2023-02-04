@@ -25,7 +25,6 @@ script requires the `pyperclip.py` module for copy/paste strings
 
   * `$ git clone https://github.com/MRLintern/Automation_Administration.git`
   * `$ cd Phone-Number_Email-Address_Extraction && ls`
-  * `
   * Go to a web page with phone numbers (US) and email addresses.
   * Press `CTRL+A` & `CTRL+C`.
   * `$ python3 phone_email_extractor.py`
