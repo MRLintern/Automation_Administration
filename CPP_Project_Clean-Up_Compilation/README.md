@@ -1,5 +1,7 @@
 ### C++ Project Clean-Up and Compilation
 
+Note: `main.py` removed; will be put back when working correctly.
+
 ### Introduction
 
 Task: 
@@ -65,6 +67,7 @@ Task:
 ### Running the Application
 
   * `$ git clone https://github.com/MRLintern/Automation_Administration/CPP_Project_Clean-Up_Compilation.git`
+  * This will download all projects within the `Automation_Administration` repo.
   * `$ python3 main.py src target`
   * Note: for the test case, replace `main.py` with `test.py`
 
