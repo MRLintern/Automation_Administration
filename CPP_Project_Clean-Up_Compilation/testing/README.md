@@ -5,41 +5,41 @@ which will tell us the name of the new folder and the number of folders that hav
 
 ### Project Structure (Initial)
 
-        `main_folder.py
+        main_folder.py
         
-        `src/`
+        src/
         
-            `calc_app/`
+            calc_app/
             
-                `calc.cpp`
-                `calc.hpp`
+                calc.cpp
+                calc.hpp
                 
                 
 ### Project Structure (After)
    
    
-         `main_folder.py
+         main_folder.py
         
-         `src/`
+         src/
         
-             `calc_app/`
+             calc_app/
             
-                `calc.cpp`
-                `calc.hpp
+                calc.cpp
+                calc.hpp
                 
-          `target/`
+          target/
           
-              `calc/`
+              calc/
               
-                 `calc.cpp`
-                 `calc.hpp`
+                 calc.cpp
+                 calc.hpp
                  
-              `metadata.json
+              metadata.json
               
           
 ### Running the Application
 
-`$ python3 main_folder.py src target
+`$ python3 main_folder.py src target`
               
               
              
