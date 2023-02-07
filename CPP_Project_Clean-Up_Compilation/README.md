@@ -1,6 +1,6 @@
 ### C++ Project Clean-Up and Compilation
 
-Note: Please refer to the `testing` folder where the application was tested to ensure the folder name was changed and json metadata file was generated.
+Note: Please refer to the `testing` folder where the application was tested to ensure the folder name was changed and a json metadata file was generated.
 
 ### Introduction
 
@@ -64,7 +64,7 @@ Task:
 ### TODO
 
 As stated at the start, refer to the `testing` folder to run the application which will change the folder name and produce a metadata.json file.
-The script will have to be develped to allow for compiling the `C++` 
+The script will have to be develped to allow for compiling the `C++` file, `calc.cpp`. 
                 
 
 
