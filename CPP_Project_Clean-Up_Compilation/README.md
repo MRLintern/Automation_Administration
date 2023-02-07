@@ -1,15 +1,15 @@
 ### C++ Project Clean-Up and Compilation
 
-Note: `main.py` removed; will be put back when working correctly.
+Note: Please refer to the `testing` folder where the application was tested to ensure the folder name was changed and json metadata file was generated.
 
 ### Introduction
 
 Task: 
 
-  * The Python `main.py` script searchs through the `src` directory for subdirectories called `calculator_test` and `multiply`.
-  * Once these have been found, a new directory called `target` (or whatver you want to call it.
-  * The new sub-directories now have the names `calculator` and `multiply`.
-  * Inside these new sub-directories C++ files are compilied and readuy to be run.
+  * The Python `main.py` script searchs through the `src` directory for subdirectories called `calc_app`.
+  * Once this folder has been found, a new directory called `target` (or whatver you want to call it) is generated.
+  * The new sub-directory of `target` is called `calc`.
+  * Inside this sub-directory, a `C++` executable is generated which can be run at the command line.
 
 ### Requirements
 
@@ -22,61 +22,49 @@ Task:
 
     src/
     
-        calculator_test/
+        calc_app/
         
             calc.cpp
+            calc.hpp
             
-        multiply_test/
-        
-            calc_2.cpp
-             
      main.py
      test.py
      README.md
      
      
-### Final Project Structure (No C++ File Compilation yet)
+### Final Project Structure
 
       src/
       
-          calculator_test/
+          calc_app/
           
               calc.cpp
-                
-          multiply_test/
-          
-              calc_2.cpp
-               
+              calc.hpp
+                     
        main.py
-       test.py
        README.md
        
        target/
        
-           calculator/
+           calc/
            
                calc.cpp
+               calc.hpp
                calc
                
-           multiply/
-           
-               calc_2.cpp
-               calc_2
-               
-         
+           metadata.json
+                    
 ### Running the Application
 
   * `$ git clone https://github.com/MRLintern/Automation_Administration/CPP_Project_Clean-Up_Compilation.git`
   * This will download all projects within the `Automation_Administration` repo.
+  * `$ cd CPP_Project_Clean-Up_Compilation`
   * `$ python3 main.py src target`
-  * Note: for the test case, replace `main.py` with `test.py`
+  
+### TODO
 
-### Testing and TODO
-
-The process of compiling the C++ files is yet to be achived. With this in mind, a script called `test.py` has been developed to create the `target`
-directory and sub-directories. That is, changing the names of the sub-directories. However, `main.py` is included. 
-Once the C++ files have been compiled, function prototypes will be added to header files.
-                  
+As stated at the start, refer to the `testing` folder to run the application which will change the folder name and produce a metadata.json file.
+The script will have to be develped to allow for compiling the `C++` 
                 
 
 
