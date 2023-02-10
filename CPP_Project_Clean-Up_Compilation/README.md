@@ -2,7 +2,7 @@
 
 Note: Please refer to the `testing` folder where the application was tested to ensure the folder name was changed and a json metadata file was generated.
 
-Note: `C++_Compilation_Scipt.py` will compile the calc.cpp and produce an executable. However, a warning is produced by the shell telling the user that `calc` can't be found.
+Note: `C++_Compilation_Scipt.py` will compile the `calc.cpp` and produce an executable. However, a warning is produced by the shell telling the user that `calc` can't be found.
 
 ### Introduction
 
