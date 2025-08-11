@@ -1,5 +1,6 @@
 
 ### Project: phone number and email address extractor
+---
 
 Script looks through a long document or web page for a phone number or email address.
 you won't be using CTRL+F.
@@ -7,6 +8,7 @@ you won't be using CTRL+F.
 script requires the `pyperclip.py` module for copy/paste strings
 
 ### More Detail
+---
 
   1. use pyperclip module to copy and paste strings; you need to install this module
   2. create 2 regexes, 1 for matching phone numbers and 1 for email addresses
@@ -15,6 +17,7 @@ script requires the `pyperclip.py` module for copy/paste strings
   5. display some kind of message if no matches were found in the text
 
 ### Requirements
+---
 
   * Application tested on `Windows 10` and `Ubuntu 20.04`.
   * `Python 3.8`.
@@ -22,6 +25,7 @@ script requires the `pyperclip.py` module for copy/paste strings
   * `pyperclip` module for copy/paste functionality.
 
 ### Running the application
+---
 
   * `$ git clone https://github.com/MRLintern/Automation_Administration.git`
   * `$ cd Phone-Number_Email-Address_Extraction && ls`
@@ -31,3 +35,5 @@ script requires the `pyperclip.py` module for copy/paste strings
   * Alternatively:
   * `$ chmod 777 phone_email_extractor.py`
   * `$ ./phone_email_extractor.py`
+
+ ---
